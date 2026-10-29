@@ -16,7 +16,11 @@ de Spotify a otra.
 ## 2. Configurar
 
 ```bash
-cd /Users/jmrosal/dev/spotify-migrate
+git clone https://github.com/ozcho/spotify-migrate.git
+cd spotify-migrate
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
 cp .env.example .env   # y rellena client id y secret
 ```
 
